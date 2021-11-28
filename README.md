@@ -4,7 +4,7 @@ A system to manage a cafe’s business activity. This application can be used by
 # Startup Guide
 1. Install XAMPP, then start Apache and MySQL module (make sure these two modules are active, otherwise the application can't connect to the database and won't start).
 2. Go to http://localhost/phpmyadmin/.
-3. Import the database from coffeevibesdb.sql file found in the repository.
+3. Import the database from [coffeevibesdb.sql](coffeevibesdb.sql) file found in the repository.
 4. Run CoffeeVibes on Eclipse or other Java-compatible IDE.
 
 Below is the preview and/or flow of the application:
