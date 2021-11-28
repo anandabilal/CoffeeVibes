@@ -1,9 +1,13 @@
 # CoffeeVibes
- A system to manage a cafe’s business activity.
+A system to manage a cafe’s business activity. This application can be used by many users with different employee position which are: Barista, Product Admin, Manager, and Human Resource Department. Each of these employee positions have different actions that they can do inside the application, for example Barista can only view products, and view carts, and do checkout. While Human Resource Departmet can add a new employee or fire existing one. CoffeeVibes was built using Java with MVC (Model View Controller) architecture, MySQL as database, and minimalizes human error with input validations.
 
-This application was built using Java-based Programming with MVC (Model View Controller) architecture, MySQL as database, and minimalizes human error with input validations.
+# Startup Guide
+1. Install XAMPP, then start Apache and MySQL module (make sure these two modules are active, otherwise the application can't connect to the database and won't start).
+2. Go to http://localhost/phpmyadmin/.
+3. Import the database from coffeevibesdb.sql file found in the repository.
+4. Run CoffeeVibes on Eclipse or other Java-compatible IDE.
 
-Below is the business flow that are ordered by the types of users that can use it:
+Below is the preview and/or flow of the application:
 # (1/12) Login Page
 ![](pic/1login.jpg)
 
